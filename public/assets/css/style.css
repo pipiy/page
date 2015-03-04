@@ -15,7 +15,7 @@ p {
 }
 .block {
 	margin: 0 auto;
-	width: 45%;
+	width: 45px;
 }
 .block a > p {
 	color: #afe3f8;
@@ -65,7 +65,7 @@ p {
 	margin-bottom: 40px;
 }
 .logo img {
-	width: 35%;
+	width: 393px;
 }
 .footer p {
 	margin-top: 40px;
