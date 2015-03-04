@@ -75,15 +75,15 @@ p {
 @media (max-width: 480px) {
 	.block {
 		margin: 0 auto;
-		width: 520px;
+		width: 83%;
 	}
 	.block_1 a {
-		width: 460px;
+		width: 400px;
 	}
 	.block_2 a {
-		width: 460px;
+		width: 400px;
 	}
 	.block_3 a {
-		width: 460px;
+		width: 400px;
 	}
 }
