@@ -102,8 +102,7 @@ p {
 	height: 60px;
 	font-size: 20px;
 }
-.form-group textarea {
+.form-group .textarea {
 	height: 292px;
 	font-size: 20px;
-
 }
