@@ -72,6 +72,8 @@ p {
 	background-color: transparent;
 }
 
-@media (min-device-width: 480px) and (orientation: landscape) {
-
+@media (max-width: 480px) {
+	.block_1 a {
+		width: 460px;
+	}
 }
