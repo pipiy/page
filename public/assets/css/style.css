@@ -113,7 +113,6 @@ form {
 
 textarea:hover, input:hover{
   border: 2px solid rgba(52, 152, 219, 1);
-  box-shadow: 1px 1px 3px 1px rgba(52, 152, 219, 0.2) inset;
   -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
@@ -122,7 +121,6 @@ textarea:hover, input:hover{
 
 textarea:focus, input:focus{
   border: 2px solid rgba(52, 152, 219, 1);
-  box-shadow: 0px 0px 0px 0px rgba(52, 152, 219, 1);
   -webkit-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
 	-moz-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
 	-o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
