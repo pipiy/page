@@ -73,7 +73,17 @@ p {
 }
 
 @media (max-width: 480px) {
+	.block {
+		margin: 0 auto;
+		width: 460px;
+	}
 	.block_1 a {
+		width: 460px;
+	}
+	.block_2 a {
+		width: 460px;
+	}
+	.block_3 a {
 		width: 460px;
 	}
 }
