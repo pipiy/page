@@ -58,6 +58,30 @@ p {
 	background-color: #363d47;
 	border-color: transparent;
 }
+.block_4 a {
+	background-color: #008ec7;
+	width: 520px;
+}
+.block_4 a:hover {
+	background-color: #363d47;
+	border-color: transparent;
+}
+.block_4 a:focus {
+	background-color: #363d47;
+	border-color: transparent;
+}
+.block_5 a {
+	background-color: #008ec7;
+	width: 520px;
+}
+.block_5 a:hover {
+	background-color: #363d47;
+	border-color: transparent;
+}
+.block_5 a:focus {
+	background-color: #363d47;
+	border-color: transparent;
+}
 .logo {
 	padding-top: 30px;
 	margin: 0 auto;
@@ -70,4 +94,16 @@ p {
 .footer p {
 	margin-top: 40px;
 	background-color: transparent;
+}
+.tab_2 h1 {
+	color: #008ec7;
+}
+.form-group input {
+	height: 60px;
+	font-size: 20px;
+}
+.form-group textarea {
+	height: 292px;
+	font-size: 20px;
+
 }
