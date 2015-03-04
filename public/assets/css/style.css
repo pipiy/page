@@ -106,8 +106,3 @@ p {
 	height: 292px;
 	font-size: 20px;
 }
-@media(min-width: 480px){
-	.container {
-		width: 100px;
-	}
-}
