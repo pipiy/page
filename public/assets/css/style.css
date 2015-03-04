@@ -22,7 +22,7 @@ p {
 }
 .block_1 a {
 	background-color: #008ec7;
-	width: 100%;
+	width: 520px;
 	margin-bottom: 40px;
 }
 .block_1 a:hover {
@@ -70,20 +70,4 @@ p {
 .footer p {
 	margin-top: 40px;
 	background-color: transparent;
-}
-
-@media (max-width: 480px) {
-	.block {
-		margin: 0 auto;
-		width: 83%;
-	}
-	.block_1 a {
-		width: 400px;
-	}
-	.block_2 a {
-		width: 400px;
-	}
-	.block_3 a {
-		width: 400px;
-	}
 }
