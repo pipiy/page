@@ -43,9 +43,10 @@ p {
 	padding: 20px;
 }
 .logo {
-	width: 75%;
+	width: 90%;
 	margin: 0 auto;
 	padding-bottom: 40px;
+	text-align: center;
 }
 .logo img {
 	width: 215px;
@@ -101,32 +102,13 @@ form {
 	padding: 20px;
 	font-size: 20px;
 }
-
-.input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
-.input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
-.input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
-.input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
-.input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
-.input:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
-.input:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
-.input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
-
+input, textarea {
+  outline:none;
+}
 textarea:hover, input:hover{
   border: 2px solid rgba(52, 152, 219, 1);
-  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 textarea:focus, input:focus{
   border: 2px solid rgba(52, 152, 219, 1);
-  -webkit-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
-	-moz-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
-	-o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
-	transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
 }
-input,
-                textarea {
-                    outline:none;
-                }
