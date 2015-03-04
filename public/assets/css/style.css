@@ -126,3 +126,7 @@ textarea:focus, input:focus{
 	-o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
 	transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
 }
+input,
+                textarea {
+                    outline:none;
+                }
