@@ -42,30 +42,6 @@ p {
 .block_padding {
 	padding: 20px;
 }
-.block_4 a {
-	background-color: #008ec7;
-	width: 520px;
-}
-.block_4 a:hover {
-	background-color: #363d47;
-	border-color: transparent;
-}
-.block_4 a:focus {
-	background-color: #363d47;
-	border-color: transparent;
-}
-.block_5 a {
-	background-color: #008ec7;
-	width: 520px;
-}
-.block_5 a:hover {
-	background-color: #363d47;
-	border-color: transparent;
-}
-.block_5 a:focus {
-	background-color: #363d47;
-	border-color: transparent;
-}
 .logo {
 	width: 75%;
 	margin: 0 auto;
@@ -79,14 +55,76 @@ p {
 	margin: 0 auto;
 	text-align: center;
 }
-.tab_2 h1 {
+.cellphone {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+.cellphone .num-color {
+	font-size: 32px;
 	color: #008ec7;
 }
+.btn {
+	padding: 20px;
+}
+form {
+	width: 90%;
+	margin: 0 auto;
+}
+.form-group {
+	padding-bottom: 20px;
+}
 .form-group input {
-	height: 60px;
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 3px;
+	border: none;
+}
+.form-group textarea {
+	width: 100%;
+	height: 100px;
+	font-size: 20px;
+	border-radius: 3px;
+	border: none;
+	background-color: #eeeeee;
+}
+.input {
+	background-color: #eeeeee;
+}
+.send_btn {
+	background-color: #008ec7;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	padding: 20px;
 	font-size: 20px;
 }
-.form-group .textarea {
-	height: 292px;
-	font-size: 20px;
+
+.input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.3s ease;}
+.input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.3s ease;}
+.input:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 0.3s ease;}
+.input:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 0.3s ease;}
+.input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.3s ease;}
+
+textarea:hover, input:hover{
+  border: 2px solid rgba(52, 152, 219, 1);
+  box-shadow: 1px 1px 3px 1px rgba(52, 152, 219, 0.2) inset;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+textarea:focus, input:focus{
+  border: 2px solid rgba(52, 152, 219, 1);
+  box-shadow: 0px 0px 0px 0px rgba(52, 152, 219, 1);
+  -webkit-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+	-moz-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+	-o-transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+	transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
 }

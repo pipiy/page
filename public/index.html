@@ -8,60 +8,31 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
-	<body ng-app="App" ng-controller="tabCtrl">
+	<body>
 		<div class="wrapper">
 			<div class="logo">
 				<img src="assets/images/rcam_logo.svg">
 			</div>
-			<div class="blocks">
-				<div class="tab_1" ng-hide="isSelected(2) || isSelected(3)">
-					<div class="block">
-						<div class="block_padding">
-							<a href="http://rcam.by" class="btn btn-primary btn-lg" target="_blank"><h2 class="text-center">Посетить сайт Rcam </h2><p class="text-center">и узнать больше о <br> видеонаблюдении с телефона</p></a>
-						</div>
-					</div>
-					<div class="block">
-						<div class="block_padding">
-							<a href="http://www.apple.com/" class="btn btn-primary btn-lg" target="_blank"><h2 class="text-center">Скачать приложение</h2><p class="text-center">и опробовать все функции Rcam <br> на своем Iphone</p></a>
-						</div>
-					</div>
-					<div class="block">
-						<div class="block_padding">
-							<a class="btn btn-primary btn-lg" ng-click="selectTab(2)"><h2>Наши контакты</h2><p class="text-center">свяжитесь с нами по любому <br> интересующему вас вопросу</p></a>
-						</div>
+			<div class="tab_1">
+				<div class="block">
+					<div class="block_padding">
+						<a href="http://rcam.by" class="btn btn-primary btn-lg" target="_blank"><h2 class="text-center">Посетить сайт Rcam </h2><p class="text-center">и узнать больше о <br> видеонаблюдении с телефона</p></a>
 					</div>
 				</div>
-				<div class="tab_2" ng-show="isSelected(2)">
-					<p class="text-center">Звоните нам по любым вопросам</p>
-					<h1 class="text-center">+375 25 515-99-36</h1>
-					<p class="text-center" style="margin: 80px 0 80px 0">или</p>
-					<div class="block_4">
-						<a class="btn btn-primary btn-lg" ng-click="selectTab(3)"><h2 class="text-center">Отправьте нам <br> сообщение</h2></a>
+				<div class="block">
+					<div class="block_padding">
+						<a href="http://www.apple.com/" class="btn btn-primary btn-lg" target="_blank"><h2 class="text-center">Скачать приложение</h2><p class="text-center">и опробовать все функции Rcam <br> на своем Iphone</p></a>
 					</div>
 				</div>
-				<div class="tab_3" ng-show="isSelected(3)">
-					<form>
-					  <div class="form-group">
-					    <input type="text" class="form-control" placeholder="Как вас зовут?">
-					  </div>
-					  <div class="form-group">
-					    <input type="text" class="form-control" placeholder="Ваш email или телефон">
-					  </div>
-					  <div class="form-group">
-					    <textarea class="form-control textarea" placeholder="Ваше сообщение..."></textarea>
-					  </div>
-					  <div class="block_5">
-							<a class="btn btn-primary btn-lg" ng-click="selectTab(2)">Отправить</a>
-						</div>
-					</form>	
-				</div>
-				<div class="footer">
-					<p class="text-center">Rstudio Wisdom Technologies Ltd.</p>
+				<div class="block">
+					<div class="block_padding">
+						<a href="contacts.html" class="btn btn-primary btn-lg" target="_blank"><h2>Наши контакты</h2><p class="text-center">свяжитесь с нами по любому <br> интересующему вас вопросу</p></a>
+					</div>
 				</div>
 			</div>
+			<div class="footer">
+				<p class="text-center">Rstudio Wisdom Technologies Ltd.</p>
+			</div>
 		</div>
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
-		<script type="text/javascript" src="assets/js/app.js"></script>
-		<script type="text/javascript" src="assets/js/controllers/tabctrl.js"></script>
 	</body>
 </html>
