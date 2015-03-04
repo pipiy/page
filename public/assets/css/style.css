@@ -75,7 +75,7 @@ p {
 @media (max-width: 480px) {
 	.block {
 		margin: 0 auto;
-		width: 50%;
+		width: 520px;
 	}
 	.block_1 a {
 		width: 460px;
