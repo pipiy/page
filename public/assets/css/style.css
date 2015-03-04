@@ -12,8 +12,20 @@ p {
 
 }
 .block {
+	width: 90%;
 	margin: 0 auto;
-	width: 377px;
+	background-color: #008ec7;
+	text-align: center;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+.block:hover {
+	background-color: #363d47;
+	border-color: transparent;
+}
+.block a {
+	text-decoration: none;
+	color: #fff;
 }
 .block a > p {
 	color: #afe3f8;
@@ -27,34 +39,8 @@ p {
 	background-color: #363d47;
 	border-color: transparent;
 }
-.block_1 a:focus {
-	background-color: #363d47;
-	border-color: transparent;
-}
-.block_2 a {
-	background-color: #008ec7;
-	width: 377px;
-	margin-bottom: 40px;
-}
-.block_2 a:hover {
-	background-color: #363d47;
-	border-color: transparent;
-}
-.block_2 a:focus {
-	background-color: #363d47;
-	border-color: transparent;
-}
-.block_3 a {
-	background-color: #008ec7;
-	width: 377px;
-}
-.block_3 a:hover {
-	background-color: #363d47;
-	border-color: transparent;
-}
-.block_3 a:focus {
-	background-color: #363d47;
-	border-color: transparent;
+.block_padding {
+	padding: 20px;
 }
 .block_4 a {
 	background-color: #008ec7;
@@ -81,17 +67,17 @@ p {
 	border-color: transparent;
 }
 .logo {
-	padding-top: 30px;
+	width: 75%;
 	margin: 0 auto;
-	width: 305px;
-	margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 .logo img {
-	width: 300px;
+	width: 215px;
 }
-.footer p {
-	margin-top: 40px;
-	background-color: transparent;
+.footer {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
 }
 .tab_2 h1 {
 	color: #008ec7;
