@@ -6,15 +6,18 @@
 		<meta name="HandheldFriendly" content="True"/>
 		<meta http-equiv="Cache-Control" content="no-cache"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
 		<div class="wrapper">
 			<div class="logo">
-				<img src="assets/images/rcam_logo.svg">
+				<a href="index.html">
+					<img src="assets/images/rcam_logo.svg">
+				</a>
 			</div>
 			<div class="contact_form">
-				<form>
+				<form id="myForm">
 				  <div class="form-group">
 				    <input type="text" class="form-control" placeholder="Как вас зовут?">
 				  </div>
@@ -24,8 +27,8 @@
 				  <div class="form-group">
 				    <textarea class="form-control textarea" placeholder="Ваше сообщение..."></textarea>
 				  </div>
-				  <div class="btn">
-						<a href="#" class="">Отправить</a>
+				  <div class="contact_block">
+						<button type="submit" class="btn btn-primary" >Отправить</button>
 					</div>
 				</form>	
 			</div>
@@ -34,5 +37,14 @@
 				<p>Rstudio Wisdom Technologies Ltd.</p>
 			</div>
 		</div>
+		<script type="text/javascript" src="assets/js/jquery-1.11.2.min.js"></script>
+		<script src="http://malsup.github.com/jquery.form.js"></script> 
+		<script type="text/javascript">
+      $(document).ready(function() { 
+        $('#myForm').ajaxForm(function(event) { 
+          alert("succesfully send it"); 
+        });
+      });  
+		</script>
 	</body>
 </html>

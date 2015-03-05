@@ -6,35 +6,42 @@
 		<meta name="HandheldFriendly" content="True"/>
 		<meta http-equiv="Cache-Control" content="no-cache"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
 		<div class="wrapper">
 			<div class="logo">
-				<img src="assets/images/rcam_logo.svg">
+				<a href="index.html">
+					<img src="assets/images/rcam_logo.svg">
+				</a>
 			</div>
 			<div class="tab_1">
-				<div class="block">
-					<div class="block_padding btn">
-						<a href="http://rcam.by" target="_blank"><h4>Посетить сайт Rcam</h4>
-						<p>и узнать больше о <br> видеонаблюдении с телефона</p></a>
-					</div>
+				<div class="block line">
+					<a href="http://rcam.by" class="btn btn-primary"><h4>Посетить сайт Rcam</h4>
+					<p>и узнать больше о <br> видеонаблюдении с телефона</p></a>
 				</div>
-				<div class="block">
-					<div class="block_padding btn">
-						<a href="http://www.apple.com/" target="_blank"><h4>Скачать приложение</h4><p>и опробовать все функции Rcam <br> на своем Iphone</p></a>
-					</div>
+				<div class="block line device">
+					<a href="http://www.apple.com/" class="btn btn-primary"><h4>Скачать приложение</h4><p>и опробовать все функции Rcam <br> на своем Iphone</p></a>
 				</div>
-				<div class="block">
-					<div class="block_padding btn">
-						<a href="contacts.html" target="_blank"><h4>Наши контакты</h4>
-						<p>свяжитесь с нами по любому <br> интересующему вас вопросу</p></a>
-					</div>
+				<div class="block line">
+					<a href="contacts.html" class="btn btn-primary"><h4>Наши контакты</h4>
+					<p>свяжитесь с нами по любому <br> интересующему вас вопросу</p></a>
 				</div>
 			</div>
 			<div class="footer">
 				<p>Rstudio Wisdom Technologies Ltd.</p>
 			</div>
 		</div>
+		<script type="text/javascript" src="assets/js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {  
+				if(navigator.userAgent.match(/(iPhone|iPad|iPod)/i)){ 
+				 	$('.device').html('<a href="http://www.apple.com/" class="btn btn-primary"><h4>Скачать приложение</h4><p>и опробовать все функции Rcam <br> на своем Iphone</p></a>');
+				} else if(navigator.userAgent.match(/(Android)/i)){
+					$('.device').html('<a href="http://play.google.com" class="btn btn-primary"><h4>Скачать приложение</h4><p>и опробовать все функции Rcam <br> на своем Android</p></a>');
+				}
+		 	});
+		</script>
 	</body>
 </html>
